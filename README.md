@@ -8,7 +8,7 @@ This is SPMB, learning how to make form in my school. I learn how to make a form
 You can get it by cloning the <a href="https://github.com/RangS-1/spmb.git">git repo</a>
 
 ```
-~ ❯ git clone https://github.com/RangS-1/PHP-modules.git
+~ ❯ git clone https://github.com/RangS-1/spmb.git
 
 📁 xampp
 └── 📁 htdocs
