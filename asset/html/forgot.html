@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Forgot Password</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Lupa Password</h2>
+
+    <form method="post" action="../php/forgot.php">
+        <input type="email" name="email" placeholder="Masukkan Email" required>
+        <input type="password" name="password" placeholder="Password Baru" required>
+        <input type="password" name="con_password" placeholder="Konfirmasi Password" required>
+        <button type="submit">Reset Password</button>
+    </form>
+
+    <p style="text-align:center; margin-top:15px;">
+        <a href="login.html">Kembali ke Login</a>
+    </p>
+</div>
+
+</body>
+</html>
