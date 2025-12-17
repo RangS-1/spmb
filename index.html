@@ -13,16 +13,37 @@
     </div>
 
     <h2>Form Pendaftaran</h2>
-        <form method="post" action="asset/php/save.php">
-        <input type="text" name="name" placeholder="Nama" required><br>
-        <input type="email" name="email" placeholder="Email" required><br>
-        <input type="text" name="username" placeholder="Username" required><br>
-        <input type="password" name="password" placeholder="Password" required><br>
-        <input type="password" name="con_password" placeholder="Konfirmasi Password" required><br>
+
+    <form method="post" action="asset/php/save.php">
+        <input type="text" name="name" placeholder="Nama" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <input type="password" name="con_password" id="password" placeholder="Konfirmasi Password" required>
+        <center>
+        <label class="checkbox-wrapper">
+        <input type="checkbox" id="showPassword" onclick="togglePassword()">
+        <div class="checkmark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+      <path
+        d="M20 6L9 17L4 12"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </svg>
+    </div><span class="label">Show Password</span>
+    </label>    
+    </center>
+        <hr>
         <button type="submit">Simpan</button>
     </form>
 
+    <p style="text-align:center; margin-top:15px;">
+        Sudah punya akun? <a href="asset/html/login.html">Login</a><br>
+        <a href="asset/html/forgot.html">Lupa Password?</a>
+    </p>
 </div>
-
+    <script src="asset/js/script.js"></script>
 </body>
 </html>
